@@ -7,7 +7,9 @@ gulp.task 'assets', ['less'], ->
 
 gulp.task 'less', ->
   gulp.src './assets/less/*.less'
-    .pipe less()
+    .pipe less({
+      paths: [ __dirname + '/bower_components' ]
+    })
     .pipe gulp.dest './public/css'
 
 gulp.task 'watch', ->
