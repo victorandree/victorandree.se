@@ -1,0 +1,20 @@
+{
+  "name": "victorandree.se",
+  "author": "Victor Andrée <hej@victorandree.se>",
+  "version": "0.0.0",
+  "description": "My personal website at victorandree.se",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=lib nodemon server.coffee"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "colors": "~0.6.2",
+    "jade": "~1.1.5",
+    "coffee-script": "~1.7.1"
+  },
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2"
+  }
+}
