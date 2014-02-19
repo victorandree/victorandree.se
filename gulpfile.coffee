@@ -13,6 +13,6 @@ gulp.task 'less', ->
     .pipe gulp.dest './public/css'
 
 gulp.task 'watch', ->
-  gulp.watch './assets', ['assets']
+  gulp.watch './assets/less/*.less', ['less']
 
 gulp.task 'default', ['assets', 'watch']
