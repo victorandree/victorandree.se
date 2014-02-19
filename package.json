@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_PATH=lib nodemon server.coffee"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/vicvicvic/victorandree.se.git"
+  },
   "dependencies": {
     "express": "~3.4.8",
     "colors": "~0.6.2",
