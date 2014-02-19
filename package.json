@@ -8,8 +8,8 @@
     "start": "NODE_PATH=lib nodemon server.coffee"
   },
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/vicvicvic/victorandree.se.git"
+    "type": "git",
+    "url": "http://github.com/vicvicvic/victorandree.se.git"
   },
   "dependencies": {
     "express": "~3.4.8",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "gulp-util": "~2.2.14",
+    "gulp-less": "~1.2.1",
     "gulp": "~3.5.2"
   }
 }
